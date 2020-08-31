@@ -1,0 +1,8 @@
+conda create --name deap_exp pandas numpy scikit-learn scipy
+
+source activate deap_exp
+
+conda install -c conda-forge deap
+conda install -c conda-forge xgboost
+
+conda env export > environment.yml
